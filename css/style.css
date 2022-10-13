@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 2;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/img6.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 84vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image__text a {
+    background-color: #4c4f569a;
+    border: 2px solid #4c4f56;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.intro-text {
+    background-color: #4c4f56;
+    clip-path: polygon(50% 20%, 100% 5%, 100% 100%, 0 100%, 0 35%);
+    height: 250px;
+    margin-top: -7rem;
+    text-align: right;
+    padding:4rem; padding-right: 12rem;
+
+}
+
+.intro-text__textbox h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.intro-text__textbox {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/img10.jpg');
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__text a {
+    background-color: #4c4f569a;
+    border: 2px solid #4c4f56;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    background-color: #4c4f56;
+    height: 230px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.packaging_text__textbox {
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.heading-solid-green {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/img1.jpg');
+    height: 400px;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #4c4f569a;
+    border: 2px solid #4c4f56;
+    color: #fff;
+    display: inline-block;
+    font-size: 1.5rem;
+    padding: 1rem; padding-left: 4rem; padding-right: 4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #3a3d44;
+    color: #fff;
+    font-size: 0.9rem;
+    height: 150px;
+    text-align: center;
+    padding: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+.footer ul li:hover, .footer ul li a:hover {
+    transform: scale(1.1);
+    color: #f9eed8;
+}
